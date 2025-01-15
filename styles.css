@@ -1,0 +1,87 @@
+*{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    margin: 0px;
+    font-size: 15px;
+    background-color: rgba(173, 130, 243, 0.566);
+}
+header{ 
+    height: 100vh;
+    color: whitesmoke;
+    background:linear-gradient(to bottom,rgba(121, 63, 215, 0.975), white);
+}
+h1{
+    color: rgb(131, 85, 206);
+    font-size: 50px;
+
+}
+header h1{
+    color: white;
+    margin: 0;
+}
+.button{
+    height:40px ;
+    width: 140px;
+    border-radius: 15px;
+    cursor: pointer;
+    color:black;
+    background-color: white;
+}
+.button:hover{
+    background-color: black;
+    color: white;
+}
+main{
+    padding: 20px;
+    background:linear-gradient(to bottom,white,rgba(173, 130, 243, 0.566));
+}
+section{
+    height: 100vh;
+    border: 3px solid ,rgba(88, 10, 214, 0.845) ;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+.submit{
+    height:40px ;
+    width: 140px;
+    border-radius: 15px;
+    cursor: pointer;
+    color:black;
+    background-color: white;
+}
+.submit:hover{
+    background-color: black;
+    color: white;
+}
+input{
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    height: 25px;
+}
+footer{
+    height: 124px;
+    background-color: black;
+    color: gray;
+}
+.top{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height:50px ;
+    width: 50px;
+    border-radius: 25px;
+    cursor: pointer;
+    color:rgb(255, 255, 255);
+    background-color: rgb(116, 77, 179);
+}
+.top:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
